@@ -15,7 +15,7 @@ const myKnex = knex({
 });
 
 // Check that the connection works
-myKnex.raw("SELECT VERSION()").then(() => {
+myKnex.raw("SELECT * FROM `meals`, `reservations`, `reviews` ").then(() => {
   console.log(`connection to db successful!`);
 });
 

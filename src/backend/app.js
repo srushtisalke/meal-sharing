@@ -27,6 +27,26 @@ app.use(cors());
 
 router.use("/meals", mealsRouter);
 
+app.get("/future-meals", (req, res) => {
+  res.send("How many meals are there");
+});
+
+app.get("/past-meals", (req, res) => {
+  res.send("How many meals are finished");
+});
+
+app.get("/all-meals", (req, res) => {
+  res.send("Total number of meals");
+});
+
+app.get("/first-meal", (req, res) => {
+  res.send("First meal");
+});
+
+app.get("/last-meal", (req, res) => {
+  res.send("Last meal");
+});
+
 if (process.env.API_PATH) {
   app.use(process.env.API_PATH, router);
 } else {
