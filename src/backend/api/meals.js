@@ -1,15 +1,27 @@
-import express from "express";
+const express = require("express");
 const router = express.Router();
-import knex from "../database.js";
+const knex = require("../database");
 
+//Returns all meals using GET
 router.get("/", async (request, response) => {
   try {
-    // knex syntax for selecting things. Look up the documentation for knex for further info
-    const titles = await knex("meals").select("title");
-    response.json(titles);
+    const allMeals = await knex("meals").select("*");
+    response.json(allMeals);
   } catch (error) {
-    throw error;
+    response.status(500).json({ error: "Cannot find any Meal" });
   }
 });
 
-export default router;
+
+//Return the meal by id using GET
+router.get("/:id", async(request, response) => {
+  try {
+      const mealById = await knex("meals").where("id", parseInt(request.params.id));
+      response.json(mealById);
+  } catch (error) {
+      console.log(error);
+      response.status(500).json({ error: "Error retrieving meal" });
+  }
+});
+
+module.exports = router;
