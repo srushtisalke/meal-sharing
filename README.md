@@ -48,5 +48,5 @@ Overall, it was a great learning experience that boosted my development skills.
 
 ## Screenshots
 ![Project ](/frontend/img/project.png)
-![Project ](/frontend/img/project.png)
+![Project ](/frontend/img/project2.png)
 
