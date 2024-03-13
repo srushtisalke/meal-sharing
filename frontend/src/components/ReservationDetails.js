@@ -6,7 +6,7 @@ const ReservationDetails = ({ reservation }) => {
   const { dispatch } = useReservationsContext()
 
   const handleClick = async () => {
-    const response = await fetch('https://meal-sharing-6fxv.onrender.com/api/reservations/' + reservation._id, {
+    const response = await fetch('/api/reservations/' + reservation._id, {
       method: 'DELETE'
     })
       const json = await response.json()
