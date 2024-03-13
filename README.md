@@ -1,75 +1,52 @@
-<p align="center">
-  <a href="" rel="noopener">
- <img width=200px height=200px src="https://www.hackyourfuture.dk/static/logo-dark.svg" alt="Project logo"></a>
-</p>
+## Meal Sharing App
 
-<h3 align="center">Meal sharing api</h3>
+## Project Summary
 
-<div align="center">
+* [Description](#about)
+* [Getting Started](#getting_started)
+* [Technology Used](#usage)
+* [What I learned](#built_using)
+* [Screenshots](#authors)
 
-[![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
+## Description
 
-</div>
+This is a full-stack web application built with React, Node.js, MongooDB,Express.js, Javascript, HTML, CSS, Postman.
 
----
+It was a semester project as an individual project task for Hack Your Future Denmark's curriculum.
 
-<p align="center"> Website api for sharing meals together. Invite your best friends or your family for dinner!
-    <br> 
-</p>
+The main functionalities of this website are:
 
-## 📝 Table of Contents
+* Creating a data base by using MongooDB
+* Display all meals from Database
+* Display all reservations
+* Making a resvervations
+* Add and Delete a reservations
 
-- [About](#about)
-- [Getting Started](#getting_started)
-- [Usage](#usage)
-- [Built Using](#built_using)
-- [Authors](#authors)
+## Getting Started
 
-## 🧐 About <a name = "about"></a>
+To get started with the Meal Sharing Project:
 
-Link to deployed website: 
+1. Clone this repository to your local machine.
+2. Navigate to the project directory.
+3. Install backend dependencies by navigating and using command **'npm install'**, **'npm install node'**, **'npm dotenv'** and **'npm run dev'**.
+4. Add PORT=4000 and MongooDB credentials to .env file. 
+5. Install frontend dependencies by navigating and using command **'npm  react',** and **'npm start'**.
+6. **'http://localhost:3000'** in your web browser to view the application.
 
-This project will be built out over 3 different classes:
+## Technology Used
 
-- **Nodejs week 3** - Here you will be building the backend api. Meaning you will work in the `src/backend` folder.
-- **React week 5** - Here you will be building the frontend components and routing. In this week you will be working in the `src/client` folder.
-- **Meal sharing class** - After week 5 of react you will have a specific class for finishing the meal sharing website. Here you will make everything work and deploy the website to the internet
+* Postman
+* Express.Js
+* MongooDB
+* Node.js
+* React
 
-## 🏁 Getting Started <a name = "getting_started"></a>
+### What I Learned
 
+During this project, I faced challenges like building a database and backend  Node.js, then integrating them with React frontend components.I also learned how to work with Node.js, Express.js, MongooDB to build a full-stack web application. In Addition ,I also learned how to improved my time management and prioritization skills.
+Overall, it was a great learning experience that boosted my development skills.
 
-### Environment variables
+## Screenshots
+![Project ](/frontend/img/project.png)
+![Project ](/frontend/img/project2.png)
 
-All sensitive data like fx passwords and usernames, we dont want to add to git! This problem we solve by having environment variables. Environment variables are not committed to git and have a key value structure.
-
-Remember to copy the `.env.example` file, and rename the copied file to `.env`. In the `.env` file add the relevant host, database name, database user and pasword to your own local database. If you are unsure of these things then select your database in the Mysql Workbench. Now press `Database` -> `Manage Connections...`. Here you can see everything you need except the password. If you forgot that, reset it.
-
-### Prerequisites
-
-- Postman
-- MySQL Workbench
-
-### Installing
-
-To install run `npm install`
-
-## 🎈 Usage <a name="usage"></a>
-
-To run `npm run dev`
-
-The api can now be found on `http://localhost:3000/api/` an example is `http://localhost:3000/api/meals`
-
-## ⛏️ Built Using <a name = "built_using"></a>
-
-- [Mysql](https://www.npmjs.com/package/mysql) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
-
-## ☁️ Deployment <a name = "deployment"></a>
-
-[Deployment guide](https://github.com/HackYourFuture-CPH/deployment-guide)
-
-## ✍️ Authors <a name = "authors"></a>
-
-- [@benna100](https://github.com/benna100) - Idea & Initial work
