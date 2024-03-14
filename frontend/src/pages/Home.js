@@ -13,7 +13,7 @@ const Home = () => {
 
   useEffect(() => {
   const fetchMeals = async () => {
-    const response = await fetch('https://meal-sharing-6fxv.onrender.com/api/meals')
+    const response = await fetch('https://meal-sharing-6fxv.onrender.com/api/meals/')
     const json = await response.json()
 
     if (response.ok) {
@@ -21,7 +21,7 @@ const Home = () => {
     }
   }
   const fetchReservations = async () => {
-    const reservaitonResponse = await fetch('https://meal-sharing-6fxv.onrender.com/api/reservations')
+    const reservaitonResponse = await fetch('https://meal-sharing-6fxv.onrender.com/api/reservations/')
     const reservationJson = await reservaitonResponse.json()
 
     if (reservaitonResponse.ok) {
