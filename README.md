@@ -50,3 +50,6 @@ Overall, it was a great learning experience that boosted my development skills.
 ![Project ](/frontend/img/project.png)
 ![Project ](/frontend/img/project2.png)
 
+## Meal_Sharing App Project Presentation
+
+![Project_demo](/frontend/img/meal_sharing_demo.mp4)
