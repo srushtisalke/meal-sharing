@@ -17,12 +17,7 @@ const ReservationForm = () => {
     e.preventDefault()
 
     const reservation = {name, email, phonenumber, meal, max_reservations}
-
-<<<<<<< Updated upstream
-    const response = await fetch('/api/reservations/', {
-=======
     const response = await fetch('https://meal-sharing-6fxv.onrender.com/api/meals', {
->>>>>>> Stashed changes
       method: 'POST',
       body: JSON.stringify(reservation),
       headers: {
