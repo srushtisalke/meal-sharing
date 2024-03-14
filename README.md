@@ -1,4 +1,5 @@
 ## Meal Sharing App
+https://meal-sharing-fronend.onrender.com/
 
 ## Project Summary
 
@@ -54,4 +55,4 @@ Overall, it was a great learning experience that boosted my development skills.
 
 
 ## Meal-Sharinig App Project Presentation
-![Project_demo](/frontend/img/meal_sharing_demo.mp4)
+![Project_demo](/frontend/img/com_meal_sharing_demo.mp4)
