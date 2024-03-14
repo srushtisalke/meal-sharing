@@ -55,8 +55,6 @@ Overall, it was a great learning experience that boosted my development skills.
 
 
 ## Meal-Sharinig App Project Presentation
-![Project_demo](/frontend/img/com_meal_sharing_demo.mp4)
-
 
 https://github.com/srushtisalke/meal-sharing/assets/128632723/b2521421-ecdc-4002-a003-45c628381a60
 
