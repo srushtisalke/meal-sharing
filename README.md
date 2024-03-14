@@ -50,3 +50,7 @@ Overall, it was a great learning experience that boosted my development skills.
 ![Project ](/frontend/img/project.png)
 ![Project ](/frontend/img/project2.png)
 
+
+## Meal-Sharinig App Project Presentation
+[![Watch the video](https://www.loom.com/share/91336510aa4b4a3794db18b990ff1c55?sid=ecaf07cf-81b2-4eb1-b88f-15f8739fbaf8)
+
